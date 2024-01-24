@@ -48,16 +48,21 @@ alert(num);
 let age = prompt("сколько вам лет?");
 alert(age);
 
-// задание 9
+// задание 9 9.1 9.2 9.3
 let User = { 
     name: "yana",
     age: 23,
     isadmin: true,
+
+    User["city of residence"] = "Moscow";
+
+    user.age = 35;
+
+    delete User["city of residence"];
 };
     
 
 
-// Задание 9.1
-let user = {
-
-}
+// Задание 10
+let yana = prompt("Как вас зовут?");
+alert(`Привет, ${yana}!`);
