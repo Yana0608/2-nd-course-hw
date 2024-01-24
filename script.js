@@ -53,13 +53,15 @@ let User = {
     name: "yana",
     age: 23,
     isadmin: true,
+}
 
     User["city of residence"] = "Moscow";
 
     user.age = 35;
 
     delete User["city of residence"];
-};
+
+
     
 
 
