@@ -31,7 +31,7 @@ alert(result);
 let A = 9;
 let B = 2;
 let remainder = (A % B);
-alert (remainder);
+alert(remainder);
 
 
 //Задание 7 Перепишите код с использованием операторов присваивания и инкремента/декремента (количество строк должно остаться прежним):
@@ -42,29 +42,32 @@ num *= 7;
 num /= 3;
 num++;
 num--;
-alert(num); 
+alert(num);
 
 // Задание 8
 let age = prompt("сколько вам лет?");
 alert(age);
 
 // задание 9 9.1 9.2 9.3
-let User = { 
+let User = {
     name: "yana",
     age: 23,
     isadmin: true,
 }
 
-    User["city of residence"] = "Moscow";
+User["city of residence"] = "Moscow";
 
-    user.age = 35;
+user.age = 35;
 
-    delete User["city of residence"];
+delete User["city of residence"];
+// 9.4 
+let info = prompt ("Какую информацию хотите узнать о пользователе?");
+alert(user[info]);
 
 
-    
+
 
 
 // Задание 10
-let yana = prompt("Как вас зовут?");
-alert(`Привет, ${yana}!`);
+let name = prompt("Как вас зовут?");
+alert(`Привет, ${name}!`);
