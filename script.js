@@ -52,7 +52,7 @@ alert(age);
 let User = {
     name: "yana",
     age: 23,
-    isadmin: true,
+    isAdmin: true,
 }
 
 User["city of residence"] = "Moscow";
@@ -63,10 +63,6 @@ delete User["city of residence"];
 // 9.4 
 let info = prompt ("Какую информацию хотите узнать о пользователе?");
 alert(user[info]);
-
-
-
-
 
 // Задание 10
 let Name = prompt("Как вас зовут?");
