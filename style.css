@@ -31,6 +31,7 @@ body {
   display: flex;
   width: 788.778px;
   height: 125.007px;
+  font-weight: 700;
   flex-direction: column;
   justify-content: center;
 }
@@ -150,29 +151,25 @@ body {
   }
   .top {
     width: 375px;
-    height: 1956px;
+    background-image: url(img/iphone.jpg);
+    height: 735px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .top__top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 343px;
   }
   .top__title {
-    display: flex;
     width: 343px;
     height: 77.436px;
-    flex-direction: column;
-    color: #FFF;
-    text-align: center;
     font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-bottom: 32.95px;
+    text-align: center;
   }
   .top__heading {
     color: #FFF;
     text-align: center;
+    font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -187,8 +184,9 @@ body {
     line-height: 22px;
   }
   .span__button {
-    display: flex;
-    justify-content: center;
+    width: 234.063px;
+    height: 48.603px;
+    padding-left: 54.47px;
   }
   .footer {
     display: flex;
@@ -196,17 +194,5 @@ body {
     background: #000915;
     width: 375px;
     height: 1221px;
-  }
-  .play__img-1 {
-    width: 343px;
-    height: 300px;
-  }
-  .play__img-2 {
-    width: 343px;
-    height: 300px;
-  }
-  .play__img-3 {
-    width: 343px;
-    height: 300px;
   }
 }/*# sourceMappingURL=style.css.map */
