@@ -15,6 +15,7 @@ body {
 }
 
 .top {
+  height: 1024px;
   background-image: url(img/Rectangle\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -30,7 +31,6 @@ body {
   display: flex;
   width: 788.778px;
   height: 125.007px;
-  font-weight: 700;
   flex-direction: column;
   justify-content: center;
 }
@@ -66,8 +66,8 @@ body {
   font-weight: 400;
   line-height: normal;
   font-family: "Montserrat", sans-serif;
-  border: none;
   transition: transform 0.3s;
+  border: none;
 }
 
 .button:hover {
@@ -76,6 +76,7 @@ body {
 }
 
 .footer {
+  height: 556px;
   background: #000915;
   display: flex;
   gap: 32px;
@@ -99,7 +100,7 @@ body {
   background-repeat: no-repeat;
   background-image: url(img/play1.jpg);
   border-radius: 16px;
-  width: 379px;
+  width: 378px;
   height: 300px;
   transition: transform 0.3s;
 }
@@ -113,11 +114,11 @@ body {
 
 .play__img-2 {
   background-repeat: no-repeat;
+  transition: transform 0.3s;
   background-image: url(img/play2.jpg);
   border-radius: 16px;
-  width: 379px;
+  width: 378px;
   height: 300px;
-  transition: transform 0.3s;
 }
 
 .play__img-2:hover {
@@ -131,7 +132,7 @@ body {
   background-repeat: no-repeat;
   background-image: url(img/play3.jpg);
   border-radius: 16px;
-  width: 379px;
+  width: 378px;
   height: 300px;
   transition: transform 0.3s;
 }
