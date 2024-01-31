@@ -153,9 +153,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  }
-  .top__top {
-    width: 343px;
+    height: 735px;
   }
   .top__title {
     width: 343px;
@@ -189,5 +187,19 @@ body {
     display: flex;
     flex-direction: column;
     background: #000915;
+    height: 1221px;
+    padding-bottom: 127.87px;
+  }
+  .play__img-1 {
+    width: 343px;
+    height: 300px;
+  }
+  .play__img-2 {
+    width: 343px;
+    height: 300px;
+  }
+  .play__img-3 {
+    width: 343px;
+    height: 300px;
   }
 }/*# sourceMappingURL=style.css.map */

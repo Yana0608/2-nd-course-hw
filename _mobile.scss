@@ -2,7 +2,7 @@
      .center {
          padding-left: 16px;
          padding-right: 16px;
-         
+
      }
 
      .top {
@@ -10,11 +10,10 @@
          background-repeat: no-repeat;
          background-position: center;
          background-size: cover;
+         height: 735px;
      }
 
-     .top__top {
-         width: 343px;
-     }
+     
 
      .top__title {
 
@@ -50,14 +49,29 @@
          height: 48.603px;
          padding-left: 54.47px;
      }
-     
+
 
      .footer {
          display: flex;
          flex-direction: column;
          background: #000915;
-         
+         height: 1221px;
+         padding-bottom: 127.87px;
      }
 
+     .play__img-1 {
+         width: 343px;
+         height: 300px;
+     }
+
+     .play__img-2 {
+         width: 343px;
+         height: 300px;
+     }
+
+     .play__img-3 {
+         width: 343px;
+         height: 300px;
+     }
 
  }
