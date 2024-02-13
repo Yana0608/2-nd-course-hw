@@ -1,10 +1,12 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 .center {
@@ -13,13 +15,12 @@ body {
 }
 
 .top {
-    width: 1440px;
     height: 1024px;
     background-image: url(img/Rectangle\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 217px;
+    padding-top: 217px; }
 
     .top__title {
         color: #FFF;
@@ -65,16 +66,26 @@ body {
         font-weight: 400;
         line-height: normal;
         font-family: 'Montserrat', sans-serif;
+        transition: transform 0.3s;
+        border: none;
+
     }
-}
+    
+    .button:hover{
+        cursor: url(img/clarity_cursor-hand-line.png), pointer;
+        transform: scale(1.05);
+    }
+
 
 .footer {
-    width: 1440px;
     height: 556px;
     background: #000915;
     display: flex;
     gap: 32px;
     padding-top: 128px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
     .play__img {
         text-decoration: none;
@@ -91,36 +102,50 @@ body {
         background-repeat: no-repeat;
         background-image: url(img/play1.jpg);
         border-radius: 16px;
-        width: 379px;
+        width: 378px;
         height: 300px;
+        transition: transform 0.3s;
     }
-    .play__img-1:hover{
+
+    .play__img-1:hover {
         border-radius: 16px;
         border: 3px solid #44D2FF;
+        cursor: url(img/clarity_cursor-hand-line.png), pointer;
+        transform: scale(1.05);
     }
 
     .play__img-2 {
         background-repeat: no-repeat;
-
+        transition: transform 0.3s;
         background-image: url(img/play2.jpg);
         border-radius: 16px;
-        width: 379px;
+        width: 378px;
         height: 300px;
     }
-    .play__img-2:hover{
+
+    .play__img-2:hover {
         border-radius: 16px;
         border: 3px solid #44D2FF;
+        cursor: url(img/clarity_cursor-hand-line.png), pointer;
+        transform: scale(1.05);
+
     }
 
     .play__img-3 {
         background-repeat: no-repeat;
         background-image: url(img/play3.jpg);
         border-radius: 16px;
-        width: 379px;
+        width: 378px;
         height: 300px;
+        transition: transform 0.3s;
     }
-    .play__img-3:hover{
+
+    .play__img-3:hover {
         border-radius: 16px;
         border: 3px solid #44D2FF;
+        cursor: url(img/clarity_cursor-hand-line.png), pointer;
+        transform: scale(1.05);
+
     }
-}
+
+@import 'mobile';
