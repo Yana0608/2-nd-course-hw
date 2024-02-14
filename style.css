@@ -144,6 +144,78 @@ body {
   transform: scale(1.05);
 }
 
+.footer__seasons {
+  background: rgb(0, 9, 21);
+  padding-top: 331px;
+  padding-bottom: 233px;
+}
+
+.footer__top {
+  display: flex;
+  padding-left: none;
+}
+
+.top__seasens {
+  width: 584px;
+  height: 235.6px;
+}
+
+.seasons {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  text-align: left;
+  display: flex;
+  width: 481px;
+  height: 64px;
+}
+
+.month {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+  width: 584px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.span__button {
+  padding-top: 32px;
+}
+
+.play:hover {
+  cursor: url(img/clarity_cursor-hand-line.png), pointer;
+  transform: scale(1.05);
+}
+
+.play {
+  box-sizing: border-box;
+  width: 234.063px;
+  height: 48.603px;
+  border-radius: 30px;
+  background: #9C0332;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Montserrat", sans-serif;
+  transition: transform 0.3s;
+  border: none;
+}
+
+.photo {
+  width: 485px;
+  height: 333px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -202,5 +274,35 @@ body {
   .play__img-3 {
     width: 343px;
     height: 300px;
+  }
+  .footer__seasons {
+    height: 653.61px;
+    padding-top: 51px;
+  }
+  .footer__top {
+    flex-direction: column;
+  }
+  .seasons {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    height: 39px;
+    text-align: center;
+    padding-left: 50px;
+  }
+  .month {
+    width: 343px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+    padding-bottom: 32px;
+  }
+  .span__button {
+    padding-bottom: 122px;
+  }
+  .photo {
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */
