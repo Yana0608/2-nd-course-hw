@@ -76,7 +76,9 @@ const circle2 = {
 };
 
 //Задание 8
-function getSeason( ) {
+function getSeason() {
+    let month = prompt("Введите число");
+
     if (month >= 3 && month <= 5) {
         return "Весна";
     } else if (month >= 6 && month <= 8) {
@@ -89,4 +91,4 @@ function getSeason( ) {
         return "Неизвестное значение";
     }
 }
-console.log(getSeason(prompt("Введите число:")));
+alert(getSeason(month));
