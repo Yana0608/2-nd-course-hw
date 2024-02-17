@@ -6,7 +6,6 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  overflow-x: hidden;
 }
 
 .center {
@@ -167,7 +166,6 @@ body {
   line-height: 59px;
   text-align: left;
   display: flex;
-  width: 481px;
   height: 64px;
 }
 
@@ -220,9 +218,6 @@ body {
   .center {
     padding-left: 16px;
     padding-right: 16px;
-  }
-  html, body {
-    overflow-x: hidden;
   }
   .top {
     background-image: url(img/iphone.jpg);
