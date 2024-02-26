@@ -151,7 +151,7 @@ body {
 
 .footer__top {
   display: flex;
-  padding-left: none;
+  gap: 135px;
 }
 
 .top__seasens {
@@ -212,6 +212,24 @@ body {
 .photo {
   width: 485px;
   height: 333px;
+}
+
+.footer__rememberWords {
+  background: rgb(0, 9, 21);
+  padding-top: 240px;
+  padding-bottom: 250px;
+}
+
+.footer__word {
+  display: flex;
+  gap: 135px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.photoo {
+  width: 481px;
+  height: 322px;
 }
 
 @media (max-width: 767px) {
@@ -286,7 +304,7 @@ body {
     line-height: 39px;
     height: 39px;
     text-align: center;
-    padding-left: 50px;
+    padding-left: 40px;
   }
   .month {
     width: 343px;
@@ -302,5 +320,9 @@ body {
   .photo {
     width: 344px;
     height: 236px;
+  }
+  .photoo {
+    width: 344px;
+    height: 231px;
   }
 }/*# sourceMappingURL=style.css.map */

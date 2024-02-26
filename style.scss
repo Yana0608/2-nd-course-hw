@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    
+
 }
 
 .center {
@@ -153,12 +153,12 @@ body {
     background: rgb(0, 9, 21);
     padding-top: 331px;
     padding-bottom: 233px;
-    
+
 }
 
-.footer__top{
+.footer__top {
     display: flex;
-    padding-left:none;
+    gap: 135px;
 }
 
 .top__seasens {
@@ -201,7 +201,7 @@ body {
     padding-top: 32px;
 }
 
-.play:hover{
+.play:hover {
     cursor: url(img/clarity_cursor-hand-line.png), pointer;
     transform: scale(1.05);
 }
@@ -227,6 +227,25 @@ body {
 .photo {
     width: 485px;
     height: 333px;
+}
+
+.footer__rememberWords {
+    background: rgb(0, 9, 21);
+    padding-top: 240px;
+    padding-bottom: 250px;
+}
+
+.footer__word {
+    display: flex;
+    gap: 135px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+}
+
+.photoo {
+    width: 481px;
+    height: 322px;
 }
 
 
