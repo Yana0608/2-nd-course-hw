@@ -1,6 +1,6 @@
 //Задание 1
-const arr = [1, 5, 4, 10, 0, 3];
-for ( let value of arr) {
+const numb = [1, 5, 4, 10, 0, 3];
+for ( let value of numb) {
     console.log(value);
     if (value === 10) {
         break;
@@ -29,9 +29,9 @@ for( let i = 0; i <3; i++) {
 console.log(arr);
 
 //Задание 5
-const arr = [1, 1, 1];
-arr.push(2, 2, 2);
-console.log(arr);
+const end = [1, 1, 1];
+end.push(2, 2, 2);
+console.log(end);
 
 //Задание 6
 let arr =[9, 8, 7, 'a', 6, 5];
@@ -53,8 +53,8 @@ const input = arr.split('').reverse().join('');
 console.log(input);
 
 //Задание 9
-const arr = [[1, 2, 3,],[4, 5, 6]];
-const view = arr.flat();
+const numbArr = [[1, 2, 3,],[4, 5, 6]];
+const view = numbArr.flat();
 console.log(view);
 
 //Задание 10
@@ -75,12 +75,9 @@ function getLengthWords(words) {
 
 //Задание 13
 function filterPositive(array) {
-    let result = [];
-    for ( let i = 0; i < array.length; i++) {
-        if (array[i] < 0) {
-            result.push(array[i]);
-        }
-    }
-    return result;
-    
+    const negativeValues = array.filter((value) => value < 0);
+    return negativeValues;
+
 }
+console.log(filterPositive([-1, 0, 5, -10, 56]));
+console.log(filterPositive([-25, 25, 0, -1000, -2]));
