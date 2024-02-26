@@ -6,6 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 
 .center {
@@ -214,6 +215,7 @@ body {
   height: 333px;
 }
 
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -273,6 +275,7 @@ body {
     width: 343px;
     height: 300px;
   }
+
   .footer__seasons {
     height: 653.61px;
     padding-top: 51px;
@@ -303,4 +306,5 @@ body {
     width: 344px;
     height: 236px;
   }
+
 }/*# sourceMappingURL=style.css.map */
