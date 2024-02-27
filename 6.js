@@ -17,6 +17,7 @@ const numbers = [1, 3, 5, 10, 20];
 const result = input.join(' ');
 console.log(result);
 
+
 //Задание 4
 let user = [];
 for( let i = 0; i <3; i++) {
