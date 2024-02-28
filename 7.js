@@ -37,13 +37,57 @@ function randomNumb(n) {
 
 // Задание 7
 function randomBetween(min, max) {
-    return Math.floor( Math.random() * (max - min + 1)+ min)
+    return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
 // Задание 8
 console.log(new Date());
 
 // Задание 9
+let currentDate = new Date();
+currentDate.setDate(currentDate.getDate() + 73);
+console.log(currentDate);
 
 // Задание 10
+const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+const months = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня","Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"];
+
+let greatDate = new Date();
+let fullDate = "Дата: " + greatDate.getDate() + " " + months[greatDate.getMonth()] + " " + greatDate.getFullYear() + "- это " + days[greatDate.getDay()];
+
+let hour = greatDate.getHours();
+let minute = greatDate.getMinutes();
+let second = greatDate.getSeconds();
+let fullTime = "Время: " + hour + ":" + minute + ":" + second;
+
+if (minute < 10) {
+minute = "0" + minute;
+}
+if (second < 10) {
+second = "0" + second;
+}
+
+console.log(fullDate);
+console.log(fullTime);
+
+// Задание 11
+function fruits (){
+    let rememberWords = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+
+    rememberWords = rememberWords.sort(() => Math.random()- 0.5);
+    alert(rememberWords);
+
+    let firstEl = prompt("Чему равнялся первый элемент массива?");
+    let lastEl = prompt("Чему равнялся последний элемент массива?");
+
+    if (firstEl.toLowerCase() === rememberWords[0].toLowerCase() && lastEl.toLowerCase() === rememberWords[rememberWords.length - 1].toLowerCase() ){
+        alert(" Поздравляю! Вы угадали оба слова! ");
+    }
+    else if (firstEl.toLowerCase() === rememberWords[0].toLowerCase() || lastEl.toLowerCase() === rememberWords[rememberWords.length - 1]. toLowerCase()) {
+        alert(" Вы были близки к победе");
+    }
+    else {
+        alert("Вы не угадали ни одного слова");
+    }
+}
 
