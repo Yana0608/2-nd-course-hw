@@ -321,6 +321,9 @@ body {
     width: 344px;
     height: 236px;
   }
+  .footer__word {
+    gap: none;
+  }
   .photoo {
     width: 344px;
     height: 231px;
