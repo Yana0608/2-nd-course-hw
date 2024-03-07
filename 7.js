@@ -6,7 +6,7 @@ console.log(str);
 // Задание 2
 function acceptString(array, str) {
     return array
-        .filter(item => item.toLowerCase().starstWith(str.toLowerCase()));
+        .filter(item => item.toLowerCase().startstWith(str.toLowerCase()));
 }
 
 // Задание 3
@@ -21,19 +21,18 @@ console.log(Math.min(...numbers));
 console.log(Math.max(...numbers));
 
 // Задание 5
-function random() {
-    console.log(math.floor(Math.random() * 10) + 1);
+function random(minValue, maxValue) {
+    return Math.round(Math.random() * maxValue);
 }
+console.log(random(0, 10));
 
 // Задание 6
 function randomNumb(n) {
-    let result = [];
-    for (let i = 0; i < n / 2; i++) {
-        result.push(Math.floor(Math.random() * n));
-
-    }
-    return result;
+    const arrayLength = n / 2;
+    return Array.from ({length: arrayLength},
+    () => Math.floor(Math.random() * (n + 1)));
 }
+console.log(randomNumb(10));
 
 // Задание 7
 function randomBetween(min, max) {
@@ -49,7 +48,7 @@ currentDate.setDate(currentDate.getDate() + 73);
 console.log(currentDate);
 
 // Задание 10
-const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+const days = ["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"];
 const months = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня","Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"];
 
 let greatDate = new Date();
