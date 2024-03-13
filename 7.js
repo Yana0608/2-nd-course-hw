@@ -6,7 +6,7 @@ console.log(str);
 // Задание 2
 function acceptString(array, str) {
     return array
-        .filter(item => item.toLowerCase().startstWith(str.toLowerCase()));
+        .filter(item => item.toLowerCase().startsWith(str.toLowerCase()));
 }
 
 // Задание 3
@@ -28,7 +28,7 @@ console.log(random(0, 10));
 
 // Задание 6
 function randomNumb(n) {
-    const arrayLength = n / 2;
+    const arrayLength = Math.floor(n / 2);
     return Array.from ({length: arrayLength},
     () => Math.floor(Math.random() * (n + 1)));
 }
@@ -79,7 +79,7 @@ function fruits (){
     let firstEl = prompt("Чему равнялся первый элемент массива?");
     let lastEl = prompt("Чему равнялся последний элемент массива?");
 
-    if (firstEl.toLowerCase() === rememberWords[0].toLowerCase() && lastEl.toLowerCase() === rememberWords[rememberWords.length - 1].toLowerCase() ){
+    if (firstEl.toLowerCase() === rememberWords[0].toLowerCase() && lastEl.toLowerCase() === rememberWords[rememberWords.length - 1].toLowerCase()) {
         alert(" Поздравляю! Вы угадали оба слова! ");
     }
     else if (firstEl.toLowerCase() === rememberWords[0].toLowerCase() || lastEl.toLowerCase() === rememberWords[rememberWords.length - 1]. toLowerCase()) {
@@ -88,5 +88,5 @@ function fruits (){
     else {
         alert("Вы не угадали ни одного слова");
     }
-}
+} 
 

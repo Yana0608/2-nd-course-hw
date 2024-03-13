@@ -15,6 +15,14 @@
         height: 735px;
     }
 
+    .top__top {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
 
 
     .top__title {
@@ -36,6 +44,7 @@
         font-weight: 400;
         line-height: 22px;
         width: 343px;
+        padding-bottom: 33px;
     }
 
     .span__color {
@@ -49,7 +58,8 @@
     .span__button {
         width: 234.063px;
         height: 48.603px;
-        padding-left: 54.47px;
+        padding-bottom: 122px;
+
     }
 
 
@@ -59,6 +69,7 @@
         background: #000915;
         height: 1221px;
         padding-bottom: 127.87px;
+        align-items: center;
     }
 
     .play__img-1 {
@@ -81,8 +92,19 @@
         padding-top: 51px;
     }
 
+
+
     .footer__top {
+
+        display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .top__seasons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .seasons {
@@ -91,7 +113,7 @@
         line-height: 39px;
         height: 39px;
         text-align: center;
-        padding-left: 38px;
+        
     }
 
     .month {
@@ -103,17 +125,25 @@
         padding-bottom: 32px;
     }
 
-    .span__button {
-        padding-bottom: 122px;
-    }
+
+
 
     .photo {
         width: 344px;
         height: 236px;
 
     }
-    .footer__word{
+
+    .footer__word {
         gap: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .remWords{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
     }
 
     .photoo {

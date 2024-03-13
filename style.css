@@ -184,10 +184,6 @@ body {
   padding-top: 32px;
 }
 
-.span__button {
-  padding-top: 32px;
-}
-
 .play:hover {
   cursor: url(img/clarity_cursor-hand-line.png), pointer;
   transform: scale(1.05);
@@ -244,6 +240,11 @@ body {
     background-size: cover;
     height: 735px;
   }
+  .top__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .top__title {
     width: 343px;
     height: 77.436px;
@@ -259,6 +260,7 @@ body {
     font-weight: 400;
     line-height: 22px;
     width: 343px;
+    padding-bottom: 33px;
   }
   .span__color {
     color: #FFF;
@@ -270,7 +272,7 @@ body {
   .span__button {
     width: 234.063px;
     height: 48.603px;
-    padding-left: 54.47px;
+    padding-bottom: 122px;
   }
   .footer {
     display: flex;
@@ -278,6 +280,7 @@ body {
     background: #000915;
     height: 1221px;
     padding-bottom: 127.87px;
+    align-items: center;
   }
   .play__img-1 {
     width: 343px;
@@ -296,7 +299,14 @@ body {
     padding-top: 51px;
   }
   .footer__top {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  .top__seasons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .seasons {
     font-size: 32px;
@@ -304,7 +314,6 @@ body {
     line-height: 39px;
     height: 39px;
     text-align: center;
-    padding-left: 38px;
   }
   .month {
     width: 343px;
@@ -314,15 +323,20 @@ body {
     text-align: center;
     padding-bottom: 32px;
   }
-  .span__button {
-    padding-bottom: 122px;
-  }
   .photo {
     width: 344px;
     height: 236px;
   }
   .footer__word {
     gap: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .remWords {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .photoo {
     width: 344px;
