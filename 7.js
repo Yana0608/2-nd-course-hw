@@ -82,7 +82,7 @@ function fruits (){
     if (firstEl.toLowerCase() === rememberWords[0].toLowerCase() && lastEl.toLowerCase() === rememberWords[rememberWords.length - 1].toLowerCase()) {
         alert(" Поздравляю! Вы угадали оба слова! ");
     }
-    else if (firstEl.toLowerCase() === rememberWords[0].toLowerCase() || lastEl.toLowerCase() === rememberWords[rememberWords.length - 1]. toLowerCase()) {
+    else if (firstEl.toLowerCase() === rememberWords[0].toLowerCase() || lastEl.toLowerCase() === rememberWords[rememberWords.length - 1].toLowerCase()) {
         alert(" Вы были близки к победе");
     }
     else {
