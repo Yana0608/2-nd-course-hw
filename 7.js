@@ -29,8 +29,8 @@ console.log(random(0, 10));
 // Задание 6
 function randomNumb(n) {
     const arrayLength = Math.floor(n / 2);
-    return Array.from ({length: arrayLength},
-    () => Math.floor(Math.random() * (n + 1)));
+    return Array.from({ length: arrayLength },
+        () => Math.floor(Math.random() * (n + 1)));
 }
 console.log(randomNumb(10));
 
@@ -49,7 +49,7 @@ console.log(currentDate);
 
 // Задание 10
 const days = ["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"];
-const months = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня","Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"];
+const months = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня", "Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"];
 
 let greatDate = new Date();
 let fullDate = "Дата: " + greatDate.getDate() + " " + months[greatDate.getMonth()] + " " + greatDate.getFullYear() + "- это " + days[greatDate.getDay()];
@@ -60,26 +60,29 @@ let second = greatDate.getSeconds();
 let fullTime = "Время: " + hour + ":" + minute + ":" + second;
 
 if (minute < 10) {
-minute = "0" + minute;
+    minute = "0" + minute;
 }
 if (second < 10) {
-second = "0" + second;
+    second = "0" + second;
 }
 
 console.log(fullDate);
 console.log(fullTime);
 
 // Задание 11
-function fruits (){
+function fruits() {
     let rememberWords = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
 
-    rememberWords = rememberWords.sort(() => Math.random()- 0.5);
+    rememberWords = rememberWords.sort(() => Math.random() - 0.5);
     alert(rememberWords);
 
     let firstEl = prompt("Чему равнялся первый элемент массива?");
     let lastEl = prompt("Чему равнялся последний элемент массива?");
 
-    if (firstEl.toLowerCase() === rememberWords[0].toLowerCase() && lastEl.toLowerCase() === rememberWords[rememberWords.length - 1].toLowerCase()) {
+    if (!firstEl || !lastEl) {
+        alert("вы ничего не ввели!");
+    }
+    else if (firstEl.toLowerCase() === rememberWords[0].toLowerCase() && lastEl.toLowerCase() === rememberWords[rememberWords.length - 1].toLowerCase()) {
         alert(" Поздравляю! Вы угадали оба слова! ");
     }
     else if (firstEl.toLowerCase() === rememberWords[0].toLowerCase() || lastEl.toLowerCase() === rememberWords[rememberWords.length - 1].toLowerCase()) {
@@ -88,5 +91,5 @@ function fruits (){
     else {
         alert("Вы не угадали ни одного слова");
     }
-} 
+}
 
