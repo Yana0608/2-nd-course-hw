@@ -5,11 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -35,7 +43,30 @@
         <a class="play__img play__img-3" href="#">Игра 3</a>
 
 
+
     </div>
+
+    <div class="footer__seasons center ">
+        <div class="footer__top">
+            <div class="top__seasons">
+                <h1 class="seasons">Времена года!</h1>
+                <p class="month">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится
+                </p>
+                <div class="span__button">
+                    <button class="play" onclick="alert(getSeason(prompt('Введите число')));">Играть!</button>
+                </div>
+                "date(Number(prompt("Введите номер месяца:")))"
+            </div>
+    
+            <div class="image">
+                <img class="photo" src="img/undraw_video_game_night_8h8m 1.png" alt="">
+            </div>
+        </div>
+        
+
+    </div>
+
+<script src="5.js"></script>
 </body>
 
 </html>

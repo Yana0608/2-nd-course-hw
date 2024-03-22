@@ -6,7 +6,10 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+
+
     overflow-x: hidden;
+
 }
 
 .center {
@@ -20,6 +23,22 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    padding-top: 217px;
+}
+
+.top__title {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    width: 788.778px;
+    height: 125.007px;
+    flex-direction: column;
+    justify-content: center;
+}
+
     padding-top: 217px; }
 
     .top__title {
@@ -77,6 +96,50 @@ body {
     }
 
 
+
+.top__heading {
+    padding-top: 32px;
+    width: 481px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    padding-bottom: 44px;
+}
+
+.span__color {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.button {
+    box-sizing: border-box;
+    width: 234.063px;
+    height: 48.603px;
+    border-radius: 30px;
+    background: #9C0332;
+
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Montserrat', sans-serif;
+    transition: transform 0.3s;
+    border: none;
+
+}
+
+.button:hover {
+    cursor: url(img/clarity_cursor-hand-line.png), pointer;
+    transform: scale(1.05);
+}
+
+
 .footer {
     height: 556px;
     background: #000915;
@@ -86,6 +149,151 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+.play__img {
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 32px;
+    padding-left: 32px;
+    padding-top: 236px;
+}
+
+.play__img-1 {
+    background-repeat: no-repeat;
+    background-image: url(img/play1.jpg);
+    border-radius: 16px;
+    width: 378px;
+    height: 300px;
+    transition: transform 0.3s;
+}
+
+.play__img-1:hover {
+    border-radius: 16px;
+    border: 3px solid #44D2FF;
+    cursor: url(img/clarity_cursor-hand-line.png), pointer;
+    transform: scale(1.05);
+}
+
+.play__img-2 {
+    background-repeat: no-repeat;
+    transition: transform 0.3s;
+    background-image: url(img/play2.jpg);
+    border-radius: 16px;
+    width: 378px;
+    height: 300px;
+}
+
+.play__img-2:hover {
+    border-radius: 16px;
+    border: 3px solid #44D2FF;
+    cursor: url(img/clarity_cursor-hand-line.png), pointer;
+    transform: scale(1.05);
+
+}
+
+.play__img-3 {
+    background-repeat: no-repeat;
+    background-image: url(img/play3.jpg);
+    border-radius: 16px;
+    width: 378px;
+    height: 300px;
+    transition: transform 0.3s;
+}
+
+.play__img-3:hover {
+    border-radius: 16px;
+    border: 3px solid #44D2FF;
+    cursor: url(img/clarity_cursor-hand-line.png), pointer;
+    transform: scale(1.05);
+
+}
+
+.footer__seasons {
+    background: rgb(0, 9, 21);
+    padding-top: 331px;
+    padding-bottom: 233px;
+    
+}
+
+.footer__top{
+    display: flex;
+    padding-left:none;
+}
+
+.top__seasens {
+    width: 584px;
+    height: 235.6px;
+}
+
+.seasons {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    text-align: left;
+    display: flex;
+
+    height: 64px;
+
+
+}
+
+.month {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+
+
+    width: 584px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 32px;
+    padding-top: 32px;
+
+}
+
+.span__button {
+    padding-top: 32px;
+}
+
+.play:hover{
+    cursor: url(img/clarity_cursor-hand-line.png), pointer;
+    transform: scale(1.05);
+}
+
+
+.play {
+    box-sizing: border-box;
+    width: 234.063px;
+    height: 48.603px;
+    border-radius: 30px;
+    background: #9C0332;
+
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Montserrat', sans-serif;
+    transition: transform 0.3s;
+    border: none;
+}
+
+.photo {
+    width: 485px;
+    height: 333px;
+}
+
+
+
 
     .play__img {
         text-decoration: none;
@@ -147,5 +355,6 @@ body {
         transform: scale(1.05);
 
     }
+
 
 @import 'mobile';
