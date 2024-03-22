@@ -1,4 +1,5 @@
 
+
 @media (max-width: 767px) {
     .center {
         padding-left: 16px;
@@ -119,17 +120,123 @@
          padding-left: 16px;
          padding-right: 16px;
 
-     }
 
-     .top {
-         background-image: url(img/iphone.jpg);
-         background-repeat: no-repeat;
-         background-position: center;
-         background-size: cover;
-         height: 735px;
-     }
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+
+    }
 
      
+
+
+    .top {
+        background-image: url(img/iphone.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 735px;
+    }
+
+
+
+    .top__title {
+
+        width: 343px;
+        height: 77.436px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .top__heading {
+
+        color: #FFF;
+
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        width: 343px;
+    }
+
+    .span__color {
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+    }
+
+    .span__button {
+        width: 234.063px;
+        height: 48.603px;
+        padding-left: 54.47px;
+    }
+
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        background: #000915;
+        height: 1221px;
+        padding-bottom: 127.87px;
+    }
+
+    .play__img-1 {
+        width: 343px;
+        height: 300px;
+    }
+
+    .play__img-2 {
+        width: 343px;
+        height: 300px;
+    }
+
+    .play__img-3 {
+        width: 343px;
+        height: 300px;
+    }
+
+    .footer__seasons {
+        height: 653.61px;
+        padding-top: 51px;
+    }
+
+    .footer__top {
+        flex-direction: column;
+    }
+
+    .seasons {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        height: 39px;
+        text-align: center;
+        padding-left: 50px;
+    }
+
+    .month {
+        width: 343px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+        padding-bottom: 32px;
+    }
+    .span__button{
+        padding-bottom: 122px;
+    }
+
+    .photo {
+        width: 344px;
+        height: 236px;
+        
+    }
+
+}
 
      .top__title {
 
@@ -191,3 +298,4 @@
      }
 
  }
+
