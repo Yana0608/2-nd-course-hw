@@ -6,6 +6,12 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+
+
+
+    overflow-x: hidden;
+
+
 }
 
 .center {
@@ -19,6 +25,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
     padding-top: 217px;
 }
 
@@ -33,7 +40,7 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-=======
+
     padding-top: 217px; }
 
     .top__title {
@@ -89,6 +96,7 @@ body {
         cursor: url(img/clarity_cursor-hand-line.png), pointer;
         transform: scale(1.05);
     }
+
 
 
 .top__heading {

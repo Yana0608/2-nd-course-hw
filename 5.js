@@ -77,7 +77,7 @@ const circle2 = {
 
 //Задание 8
 function getSeason(month) {
-    
+
     if (month >= 3 && month <= 5) {
         return "Весна";
     } else if (month >= 6 && month <= 8) {
